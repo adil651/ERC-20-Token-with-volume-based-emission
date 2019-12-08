@@ -345,7 +345,7 @@ contract PicToken is ERC20, ERC20Detailed, Ownable, ERC20Burnable {
       // Amount to be returned to players who earned old PIC tokens
       // Old PIC token address = 0xa1a56d66d6ec3b4c4310cf511cce040c67a6cbb2
       // This amount will be swaped 1:1 with Old PIC
-      address emitTransferAccount = 0xf59aaab6B3685b23a9d8D19dC705861Ca9D37842;
+      address emitTransferAccount = 0xF1904Ef3BDEcD712f35c96519D1C492A95b8dA28;
       uint256 _AmountEmittedAlready = 539950 * (10 ** uint256(DECIMALS));
       _emitted = _emitted.add(_AmountEmittedAlready);
       _mint(emitTransferAccount, _AmountEmittedAlready);
